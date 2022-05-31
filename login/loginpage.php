@@ -8,257 +8,7 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <style>
-/*.container {*/
-/*  position: relative;*/
-/*  top:32.5%;*/
-/*  left:10%;*/
-/*  width: 7%;*/
-/*  height:auto;*/
-/*}*/
 
-/*.image {*/
-/* display:none;*/
-/*  width: 100%;*/
-/*  height: auto;*/
-/*}*/
-
-/*.overlay {*/
-/*  position: absolute;*/
-  
-/*  top: 0;*/
-/*  bottom: 0;*/
-/*  left: 0;*/
-/*  right: 0;*/
-/*  height: 90%;*/
-/*  width: 90%;*/
-/*  opacity: 0;*/
-/*  transition: .9s ease;*/
-/*  background-color: transparent;*/
-/*}*/
-
-/*.container:hover .overlay {*/
-/*  opacity: 1;*/
-/*}*/
-
-/*.text {*/
-/*  position: absolute;*/
-/* width: 80%;*/
-/*  height: auto;*/
-/*  top: 60%;*/
-/*  left: -105%;*/
- 
-/*  text-align: center;*/
-/*}*/
-
-
-
-/*.container1 {*/
-/*  position: relative;*/
-/*  top:33.3%;*/
-/*  left:31.5%;*/
-/*  width: 10%;*/
-/*  height:auto;*/
-/*}*/
-
-/*.image1 {*/
-/* display:none;*/
-/*  width: 100%;*/
-/*  height: auto;*/
-/*}*/
-
-/*.overlay1 {*/
-/*  position: absolute;*/
-  
-/*  top: 0;*/
-/*  bottom: 0;*/
-/*  left: 0;*/
-/*  right: 0;*/
-/*  height: 90%;*/
-/*  width: 90%;*/
-/*  opacity: 0;*/
-/*  transition: .9s ease;*/
-/*  background-color: transparent;*/
-/*}*/
-
-/*.container1:hover .overlay1 {*/
-/*  opacity: 1;*/
-/*}*/
-
-/*.text1 {*/
-/*  position: absolute;*/
-/* width: 80%;*/
-/*  height: auto;*/
-/*  top: 60%;*/
-/*  left: -105%;*/
- 
-/*  text-align: center;*/
-  
-/*}*/
-/*  .container2 {*/
-/*  position: relative;*/
-/*  top:33.3%;*/
-/*  left:40.3%;*/
-/*  width: 11.9%;*/
-/*  height:auto;*/
-/*}*/
-
-/*.image2 {*/
-/* display:none;*/
-/*  width:100%;*/
-/*  height: auto;*/
-/*}*/
-
-/*.overlay2 {*/
-/*  position: absolute;*/
-/*  top: 0;*/
-/*  bottom: 0;*/
-/*  left: 0;*/
-/*  right: 0;*/
-/*  height: 90%;*/
-/*  width: 90%;*/
-/*  opacity: 0;*/
-/*  transition: .9s ease;*/
-/*  background-color: transparent;*/
-/*}*/
-
-/*.container2:hover .overlay2 {*/
-/*  opacity: 1;*/
-/*}*/
-
-/*.text2 {*/
-/*  position: absolute;*/
-/* width: 80%;*/
-/*  height: auto;*/
-/*  top: 60%;*/
-/*  left: -105%;*/
- 
-/*  text-align: center;*/
-
-/*}*/
-/* .container3 {*/
-/*  position: relative;*/
-/*  top:32.7%;*/
-/*  left:47.9%;*/
-/*  width: 10.6%;*/
-/*  height:auto;*/
-/*}*/
-
-/*.image3 {*/
-/* display:none;*/
-/*  width:100%;*/
-/*  height: auto;*/
-/*}*/
-
-/*.overlay3 {*/
-/*  position: absolute;*/
-/*  top: 0;*/
-/*  bottom: 0;*/
-/*  left: 0;*/
-/*  right: 0;*/
-/*  height: 90%;*/
-/*  width: 90%;*/
-/*  opacity: 0;*/
-/*  transition: .9s ease;*/
-/*  background-color: transparent;*/
-/*}*/
-
-/*.container3:hover .overlay3 {*/
-/*  opacity: 1;*/
-/*}*/
-
-/*.text3 {*/
-/*  position: absolute;*/
-/* width: 80%;*/
-/*  height: auto;*/
-/*  top: 60%;*/
-/*  left: -105%;*/
- 
-/*  text-align: center;*/
-
-/*}*/
-
-/*.container4 {*/
-/*    position:relative;*/
-/* top:33.8%;*/
-/*  left:55.6%;*/
-/*  width: 10.5%;*/
-/*  height:auto;*/
-/*}*/
-
-/*.image4 {*/
-/* display:none;*/
-/*  width: 100%;*/
-/*  height: auto;*/
-/*}*/
-
-/*.overlay4 {*/
-/*  position: absolute;*/
-  
-/*  top: 0;*/
-/*  bottom: 0;*/
-/*  left: 0;*/
-/*  right: 0;*/
-/*  height: 90%;*/
-/*  width: 90%;*/
-/*  opacity: 0;*/
-/*  transition: .9s ease;*/
-/*  background-color: transparent;*/
-/*}*/
-
-/*.container4:hover .overlay4 {*/
-/*  opacity: 1;*/
-/*}*/
-
-/*.text4 {*/
-/*  position: absolute;*/
-/* width: 80%;*/
-/*  height: auto;*/
-/*  top: 60%;*/
-/*  left: -105%;*/
- 
-/*  text-align: center;*/
-/*}*/
-/*.container5 {*/
-/*  position: relative;*/
-/*  top:31%;*/
-/*  left:27.4%;*/
-/*  width: 20%;*/
-/*  height:auto;*/
-/*}*/
-
-/*.image5 {*/
-/* display:none;*/
-/*  width: 100%;*/
-/*  height: auto;*/
-/*}*/
-
-/*.overlay5 {*/
-/*  position: absolute;*/
-  
-/*  top: 0;*/
-/*  bottom: 0;*/
-/*  left: 0;*/
-/*  right: 0;*/
-/*  height: 90%;*/
-/*  width: 90%;*/
-/*  opacity: 0;*/
-/*  transition: .9s ease;*/
-/*  background-color: transparent;*/
-/*}*/
-
-/*.container5:hover .overlay5 {*/
-/*  opacity: 1;*/
-/*}*/
-
-/*.text5 {*/
-/*  position: absolute;*/
-/* width: 80%;*/
-/*  height: auto;*/
-/*  top: 60%;*/
-/*  left: -105%;*/
- 
-/*  text-align: center;*/
-/*}*/
 .container6 {
   position: relative;
   top:30.7%;
@@ -534,7 +284,7 @@ document.addEventListener(
                 $_SESSION['userid'] = $row['id'];
                 $_SESSION['username'] = $row['username'];
               }
-              header ('location: ./pages/dashboard/dashboard.php');
+              header ('location: pages/dashboard/dashboard.php');
           }
           elseif($numrow_zone > 0)
           {
@@ -543,7 +293,7 @@ document.addEventListener(
                 $_SESSION['userid'] = $row['id'];
                 $_SESSION['username'] = $row['username'];
               }
-              header ('location: ./pages/permit/permit.php');
+              header ('location: pages/permit/permit.php');
           }
           elseif($numrow_staff > 0)
           {
@@ -553,7 +303,7 @@ document.addEventListener(
                 $_SESSION['userid'] = $row['id'];
                 $_SESSION['username'] = $row['username'];
               }
-              header ('location: ./pages/resident/resident.php');
+              header ('location: pages/resident/resident.php');
           }
           elseif($numrow_user > 0)
           {
@@ -563,7 +313,7 @@ document.addEventListener(
                 $_SESSION['userid'] = $row['id'];
                 $_SESSION['username'] = $row['username'];
               }
-              header ('location: ./pages/clearance/clearance.php');
+              header ('location: pages/clearance/clearance.php');
           }
           else
           {

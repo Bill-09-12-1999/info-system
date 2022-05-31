@@ -534,7 +534,7 @@ document.addEventListener(
                 $_SESSION['userid'] = $row['id'];
                 $_SESSION['username'] = $row['username'];
               }
-              header ('location: pages/dashboard/dashboard.php');
+              header ('location: ./pages/dashboard/dashboard.php');
           }
           elseif($numrow_zone > 0)
           {
@@ -543,7 +543,7 @@ document.addEventListener(
                 $_SESSION['userid'] = $row['id'];
                 $_SESSION['username'] = $row['username'];
               }
-              header ('location: pages/permit/permit.php');
+              header ('location: ./pages/permit/permit.php');
           }
           elseif($numrow_staff > 0)
           {
@@ -553,7 +553,7 @@ document.addEventListener(
                 $_SESSION['userid'] = $row['id'];
                 $_SESSION['username'] = $row['username'];
               }
-              header ('location: pages/resident/resident.php');
+              header ('location: ./pages/resident/resident.php');
           }
           elseif($numrow_user > 0)
           {

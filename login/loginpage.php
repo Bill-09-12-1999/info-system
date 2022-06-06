@@ -284,7 +284,7 @@ document.addEventListener(
                 $_SESSION['userid'] = $row['id'];
                 $_SESSION['username'] = $row['username'];
               }
-              header ('location: pages/dashboard/dashboard.php');
+              header ('location: pages/dashboard1/dashboard.php');
           }
           elseif($numrow_zone > 0)
           {
